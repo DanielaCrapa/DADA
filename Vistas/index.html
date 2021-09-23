@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <title>DCoronda</title>
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <img src="assets/images/hamburguesa.svg" alt="Menu" class="menu-hamb">
+        <nav class="menu-nav">
+            <a href="#inicio"> <strong>Inicio</strong></a>
+            <a href="#sobremi"><strong>Sobre DC</strong></a>
+            <a href="#proyectos"><strong>Proyectos</strong></a>
+            <a href="#servicios"><strong>Servicios</strong></a>
+            <a href="#contacto"><strong>Contacto</strong></a>
+        </nav>
+        <div class="contenedor-h">
+            <h1>Damian A. Coronda</h1>
+            <hr />
+            <h2>Arquitecto</h2>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="sobremi">
+            <h2 class="subtitulo">Sobre Mí</h2>
+            <section class="expert">
+                <div class="cont-expert">
+                    <img src="assets/images/Dada.svg" alt="Damian" id="Dada">
+                    <h3 class="n-expert"> Hola JuanCarlos, soy Dada</h3>
+                </div>
+            </section>
+        </section>
+
+        <section class="gallery" id="proyectos">
+            <h2 class="subtitulo">Proyectos</h2>
+            <div class="contenedor-galeria">
+                <img src="assets/images/gallery/urbanizacion.jpg" alt="plano" class="img-galeria">
+                <img src="assets/images/gallery/urbanizacion-1.jpg" alt="maq" class="img-galeria">
+                <img src="assets/images/gallery/urbanizacion-2.jpg" alt="maq" class="img-galeria">
+                <img src="assets/images/gallery/urbanizacion-3.jpg" alt="maq" class="img-galeria">
+                <img src="assets/images/gallery/urbanizacion-4.jpg" alt="maq" class="img-galeria">
+                <img src="assets/images/gallery/rojo-1.jpg" alt="edif" class="img-galeria">
+                <img src="assets/images/gallery/rojo-2.jpg" alt="edif" class="img-galeria">
+                <img src="assets/images/gallery/rojo-3.jpg" alt="edif" class="img-galeria">
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="assets/images/btn-x.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </section>
+
+        <section class="services" id="servicios">
+            <h2 class="subtitulo">Servicios</h2>
+            <div id="arquitecto">
+                <img src="assets/images/Architect.svg" alt="arquitecto">
+                <div>
+                    <h3 class="n-services"><span class="flecha">></span>Diseño de planos, estructuras, etc (preguntar a
+                        Dada)</h3>
+                </div>
+            </div>
+            <div id="higieneYseguridad">
+                <img src="assets/images/Security.png" alt="higieneYseguridad">
+                <div>
+                    <h3 class="n-services"><span class="flecha">></span>Higiene y Seguridad, etc (preguntar a Dada)</h3>
+                </div>
+            </div>
+            <div id="obra">
+                <img src="assets/images/Construction.svg" alt="obra">
+                <div>
+                    <h3 class="n-services"><span class="flecha">></span>Acompañamiento de Obras,etc (preguntar a Dada)
+                    </h3>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <section id="contacto">
+        <div class="form-contact">
+            <h2 class="subtitulo">Contactame</h2>
+            <form action="" class="area">
+                <div class="form">
+                    <input type="text" placeholder="Escribe aquí tu nombre" class="input">
+                    <input type="text" placeholder="Apellido" class="input">
+                    <input type="email" placeholder="e-mail" class="input">
+                    <input type="tel" placeholder="Telefono" class="input">
+                </div>
+                <textarea rows="5" placeholder="Escribe aquí tu mensaje" class="input" id="text-area"></textarea>
+                <input type="submit" class="btn-enviar">
+            </form>
+            <div class="form-image">
+                <img src="assets/images/RedSocial.svg" alt="Dada">
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer">
+            <div class="contact-us">
+                <h2 class="brand"> D.A. Coronda </h2>
+                <p>Arquitecto</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+
+</body>
+
+</html>
